@@ -7,7 +7,12 @@ $title='Thế giới âm nhạc';
 include('system/include/settings.inc');
 include('system/include/head.inc');
 
+if($thonline == 1)
+	{
 
+	header('Location: choosing.php?');
+
+	}
  
     echo '<center><img src="logomusic1.jpg" /></center>';
     echo'<div class = "opis" ><center>';
