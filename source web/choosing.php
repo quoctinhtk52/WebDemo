@@ -243,17 +243,7 @@ $avto=mysql_num_rows($req);
 {
 $stt = 0;
 if($avto>=1){
-While($mag = mysql_fetch_array($req)){
-$stt = $stt + 1;
-if($stt < $avto)
-        $txt = $mag[data_reg]."#";
-else
-        $txt = $mag[data_reg];
-fwrite($myfile, $txt);
-}
-}
-        
-}
+
 
 fclose($myfile);
 /////////////////////////////
