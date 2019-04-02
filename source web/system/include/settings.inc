@@ -19,7 +19,12 @@ if (isset ($_SESSION['log']) && isset ($_SESSION['pass'])) {
     $log = $_SESSION['log'];
     $pas = $_SESSION['pass'];
 }
-
+elseif (isset ($_COOKIE['log']) && isset ($_COOKIE['pas'])) {
+    $log = base64_decode($_COOKIE['log']);
+    $_SESSION['log'] = $log;
+    $pas = $_COOKIE['pas'];
+    $_SESSION['pass'] = $pas;
+}
 $req = mysql_query("SELECT * FROM `users` WHERE `usr` = '$log' and `pass`='$pas' LIMIT 1");
 $avto = mysql_num_rows($req);
 if ($avto == 1)
