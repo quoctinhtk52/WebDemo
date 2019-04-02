@@ -7,7 +7,15 @@ echo '<div class="title"><center>Đăng ký thành viên</center></div><div>';
 echo '<center><img src="member.gif" width = 120px height = 120px></center>';
 if($thonline == 0)
 {
-
+if (isset($_GET['null']))
+{ echo'<font color="red"><div id="thongbao">Không được để trống</div></font><br>';}
+if (isset($_GET['tenerr']))
+{ echo'<font color="red"><div id="thongbao">Họ tên vượt quá kí tự cho phép</div></font><br>';}
+if (isset($_GET['ktdb']))
+{ echo'<font color="red"><div id="thongbao">Username không được chứa ký tự đặc biệt</div></font><br>';}
+if (isset($_GET['tktt']))
+{ echo'<font color="red"><div id="thongbao">Username đã tồn tại</div></font><br>';}
+if (isset($_GET['chieudai']))
 { echo'<font color="red"><div id="thongbao">Username hoặc Password vượt quá kích thước quy định</div></font><br>';}
 if (isset($_GET['sdttt']))
 { echo'<font color="red"><div id="thongbao">Số điện thoại đã tồn tại</div></font><br>';}
