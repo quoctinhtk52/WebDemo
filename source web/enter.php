@@ -19,6 +19,10 @@ $_SESSION['log']=$log;
 $_SESSION['pass']=$pass;
 setcookie("log", $log, time() + 3600 * 24 );
 setcookie("pas", $pass, time() + 3600 * 24 );
-
+header ('Location: choosing.php?loginok');
+}else {
+header ('Location: index.php?error');exit;
+}       
+ob_end_flush();
 ?>
 
