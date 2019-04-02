@@ -28,7 +28,12 @@ if (isset($_GET['ngaysinherr']))
 
 switch($_GET[mod])
 {
-
+default:
+echo '<b><center>Hãy điền đầy đủ các thông tin dưới đây</center>';
+echo '<hr>';
+echo '*Lưu ý: Nếu nhập khoảng trắng trong Password thì sẽ tự mất. Yêu cầu trên 5 tuổi để đăng ký thành viên<br>';
+echo '<form action="reg.php?mod=add" method="post">';
+echo"Username: (không quá 10 ký tự, chỉ được nhập chữ và số)<br/>
 <input class='input' type=\"text\" value=\"\" size=\"50\" name=\"usr\"/><br/>
 Password: (không quá 20 ký tự)<br/>
 <input class='input' type=\"text\" value=\"\" size=\"50\" name=\"pass\"/><br/>
