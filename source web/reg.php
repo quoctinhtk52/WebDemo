@@ -52,7 +52,13 @@ Ngày sinh: (dạng YYYY-MM-DD) năm trong khoảng 1920 đến 2013 <br/>
 <input class=\"button\" type=\"submit\" value=\"Đăng ký\" /></form>";
 break;
 case 'add':
-
+$_POST['pass'] = preg_replace('/\s+/', '', ($_POST['pass']));
+$dater=date("Y-m-d");
+$ngaysinh = $_POST['nam']."-".$_POST['thang']."-".$_POST['ngay'];
+$tk = mysql_query("SELECT * FROM `users` WHERE `usr` = '$_POST[usr]'");
+$tkr=mysql_num_rows($tk);
+$sdt1 = mysql_query("SELECT * FROM `users` WHERE `SDT` = '$_POST[sdt]'");
+$sdt2=mysql_num_rows($sdt1);
 $so = '/^[0-9]+$/';
 if(($_POST[usr]) == '' || ($_POST[pass]) == '' || ($_POST[holot]) == '' || ($_POST[ten]) == '' || ($_POST[sdt]) == '' || ($_POST[gioitinh]) == '' || ($_POST[ngay]) == '' || ($_POST[thang]) == '' || ($_POST[nam]) == '')
         {header ('Location: reg.php?null');exit;}
