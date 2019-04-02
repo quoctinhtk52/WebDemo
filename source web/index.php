@@ -29,6 +29,9 @@ echo'<div class = "knopka" >';
 echo '<center>';
 echo'<form method="post" action="enter.php">';
 
+echo "<b>Tên đăng nhập</b><br/>";
+
+echo "<input name=\"name\" maxlength=\"20\" title=\"nick\" emptyok=\"true\"/><br/>";
 
 echo "<b>Mật khẩu:</b><br/>";
 echo "<input name=\"pass\"  type=\"password\"  maxlength=\"20\" title=\"password\" emptyok=\"true\"/><br/>";
