@@ -21,7 +21,13 @@ echo 'Đây là phần đăng nhập quản lý dành cho Quản Trị Viên c�
 echo'</center></div>';
  echo'<div class = "opis" ><center>';
 
-
+echo'</center></div>';
+if (isset($_GET['error']))
+{ echo'<div id="thongbao"><color="red">Tên đăng nhập hoặc mật khẩu QTV không chính xác.</div>';}
+echo'<div class = "auth" >';
+echo'<div class = "knopka" >';
+echo '<center>';
+echo'<form method="post" action="enter.php">';
 
 echo "<b>Tên đăng nhập</b><br/>";
 
