@@ -38,10 +38,5 @@ echo "<input name=\"pass\"  type=\"password\"  maxlength=\"20\" title=\"password
 echo '<input class="button" type="submit" value="Đăng nhập"/>';
 echo'</div></form>';
 echo '<center><a href="reg.php">Đăng ký</a>  || <a href="#">Tải APP</a></center>';
-echo '</center>';
-echo'</div><div class = "opis" >';
-echo '<a href="index.php">Trang chủ</a> <br />';
-echo'</div>';
 
-include('system/include/end.inc');
 ?>
