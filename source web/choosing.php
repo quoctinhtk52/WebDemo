@@ -8,7 +8,17 @@ if($thonline == 1)
 {
     echo '<center><img src="quantri1.jpg"></center>';
     echo '<center>';
-        
+        if (isset($_GET['loginok']))
+        { echo'<font color="red"><div id="thongbao">Đăng nhập thành công</div></font><br>';}
+        if (isset($_GET['null']))
+        { echo'<font color="red"><div id="thongbao">Không được để trống</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
+        if (isset($_GET['tenerr']))
+        { echo'<font color="red"><div id="thongbao">Họ tên vượt quá kí tự cho phép</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
+        if (isset($_GET['ktdb']))
+        { echo'<font color="red"><div id="thongbao">Username không được chứa ký tự đặc biệt</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
+        if (isset($_GET['tktt']))
+        { echo'<font color="red"><div id="thongbao">Username đã tồn tại</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
+        if (isset($_GET['chieudai']))
         { echo'<font color="red"><div id="thongbao">Username vượt quá kích thước quy định</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
         if (isset($_GET['sdterr']))
         { echo'<font color="red"><div id="thongbao">Số điện thoại không hợp lệ</div></font><a href="javascript: history.go(-1)">  Trở lại</a><br>';}
