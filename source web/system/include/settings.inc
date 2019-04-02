@@ -15,13 +15,11 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $brauser=htmlspecialchars(stripslashes($_SERVER['HTTP_USER_AGENT']));
 $thonline = 0;
 session_start();
-
-elseif (isset ($_COOKIE['log']) && isset ($_COOKIE['pas'])) {
-    $log = base64_decode($_COOKIE['log']);
-    $_SESSION['log'] = $log;
-    $pas = $_COOKIE['pas'];
-    $_SESSION['pass'] = $pas;
+if (isset ($_SESSION['log']) && isset ($_SESSION['pass'])) {
+    $log = $_SESSION['log'];
+    $pas = $_SESSION['pass'];
 }
+
 $req = mysql_query("SELECT * FROM `users` WHERE `usr` = '$log' and `pass`='$pas' LIMIT 1");
 $avto = mysql_num_rows($req);
 if ($avto == 1)
