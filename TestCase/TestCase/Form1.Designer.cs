@@ -90,6 +90,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.txtNamreg = new System.Windows.Forms.TextBox();
             this.txtHolot = new System.Windows.Forms.TextBox();
+            this.txtTen = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -383,6 +384,7 @@
             this.panel3.Controls.Add(this.txtGioitinh);
             this.panel3.Controls.Add(this.txtNam);
             this.panel3.Controls.Add(this.txtHolot);
+            this.panel3.Controls.Add(this.txtTen);
             this.panel3.Location = new System.Drawing.Point(272, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(548, 208);
@@ -723,6 +725,14 @@
             this.txtHolot.TabIndex = 1;
             this.txtHolot.Text = "Lê Quốc";
             // 
+            // txtTen
+            // 
+            this.txtTen.Location = new System.Drawing.Point(105, 65);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(196, 20);
+            this.txtTen.TabIndex = 1;
+            this.txtTen.Text = "Tịnh";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -812,6 +822,7 @@
         private System.Windows.Forms.TextBox txtNamreg;
         private System.Windows.Forms.Button btnDeletebh;
         private System.Windows.Forms.TextBox txtHolot;
+        private System.Windows.Forms.TextBox txtTen;
     }
 }
 
