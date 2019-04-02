@@ -101,18 +101,7 @@ namespace TestCase
             drive.FindElement(By.CssSelector("body > div:nth-child(2) > table > tbody > tr > td:nth-child(2) > div > b > b > b > b > a")).Click(); // Click danh sách thành viên
             Thread.Sleep(2000);
             //////////////////////////////Thành viên có tồn tạo//////////////////////////////////////
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > div:nth-child(4) > table > tbody > tr:nth-child(4) > td:nth-child(9) > font > a")).Click(); // Xác định thành viên để sửa
-            Thread.Sleep(1000);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(2)")).SendKeys(txtHolot.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(5)")).SendKeys(txtTen.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(8)")).SendKeys(txtNam.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(9)")).SendKeys(txtThang.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(10)")).SendKeys(txtNgay.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(13)")).SendKeys(txtSdt.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(16)")).SendKeys(txtGioitinh.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(19)")).SendKeys(txtCapdo.Text);
-            Thread.Sleep(1000);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input.button")).Click();
+           
             /////////////////////////////////Thành Viên Không Tồn Tại///////////////////////////////////
             //drive.Url = "http://nhacvippro.co.nf/choosing.php?mod=sua_tv&&maso=1589658";
             //Thread.Sleep(3000);
