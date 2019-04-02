@@ -1,10 +1,6 @@
 <?php
 ob_start();
-$title='Đăng ký';
-include('system/include/settings.inc');
-include('system/include/head.inc');
-echo '<div class="title"><center>Đăng ký thành viên</center></div><div>';
-echo '<center><img src="member.gif" width = 120px height = 120px></center>';
+
 if($thonline == 0)
 {
 if (isset($_GET['null']))
