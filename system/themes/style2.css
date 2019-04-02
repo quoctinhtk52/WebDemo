@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+
+
+
+body {
+font-size : 15px;
+font-family : Tahoma;
+border : 1px solid #e1e1e1;
+background-color: #ffffff;
+margin : auto;
+color: green;
+max-width: 100%;
+max-height: 100%;
+}
+.link{
+border-bottom: 1px solid #aaaaaa;
+margin-left: 4px;
+margin-right: 4px;
+padding:5px;
+border-left:1px solid #b7e2ff;
+}
+.anhnen {
+            border:1px solid gray;
+            background-image:url(../../hinhnen.jpg);
+}
+.trang {
+text-align: center;
+padding: 2px;
+background-color: #31302F;
+margin-top: 1px;
+margin-bottom: 1px;
+font-weight: bold;
+font-size: 14px;
+}
+.link a:hover {
+color:#ff5467;
+padding-left:10px;
+}
+.link:after{
+display: block;
+height:15px;
+background:url() 100% 0 no-repeat;
+margin:-10px -6px -6px;
+}
+
+.main_menu { background-color:#F7F7F7;
+border-bottom-color:#E0E0E0;
+padding : 4px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-top-color:#FFFFFF;
+border-top-style:solid;
+border-top-width:1px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.head{
+	color:#fff;
+	text-shadow: #7c5a49 0px 0px 1px;
+	border-bottom:1px solid #E2D3B3;
+	background:#F6ECD0 url(razdel.png) repeat-x;
+	text-align: left;
+	height: 28px;
+	font-weight: bold;
+}
+.head a{color:#fdfdfd;text-decoration:none}
+.head table{width:100%;border-collapse:collapse}
+.head table td{width:50%;padding-right:5px;padding-left:5px}
+.head table td.rt{text-align:right}
+.title{
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	background:#E3D6B6 url(razdel.png) repeat-x;
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 28px;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: #fff 0px 1px 0px;
+	padding-top: 2px;
+}
+.title img {
+vertical-align: sub;
+margin-top: -2px;
+}
+
+.button{
+	text-align:center;
+	height:20px;
+	white-space:normal;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-weight: normal;
+	background-color: #F9F1D9;
+	background-image: url(bottom2.png);
+	padding-top: 3px;
+	padding-right: 8px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+}
+.button a{
+	color:#F9F1D9;
+	font-weight:bolder;
+	text-decoration:none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 8px;
+}
+.button a:hover{color:#320000}
+
+
+
+
+.auth{
+	background-color: #00cffb;
+	background-image: url(auth.gif);
+	background-repeat: repeat-x;
+	color: #ff2900;
+	font-weight: bold;
+	background-position: top;
+	padding-top: 2px;
+}
+
+.auth div {
+	background-image: url(nen.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	margin-right: 7px;
+	}
+
+.foot{
+	color:#C3966B;
+	background:#FAF1DC repeat-x;
+	text-align: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFE0C1;
+}
+
+
+.foot a{
+	color: #89826B;
+	text-decoration: none;
+	font-size: 13px;
+	text-shadow: #fff 0px 1px 0px;
+	font-weight: bold;
+}
+
+.foot a:hover{
+	color: #694805;
+}
+.knopka {
+	background-color: #FAF2D9;
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCBB98;
+	padding-top: 2px;
+	background-image: url(auth2.gif);
+	background-position: bottom;
+	padding-bottom: 5px;
+	}
+	
+
+.opis {
+	background-color: #D8C9AB;
+	background-image: url(opis.png);
+	background-repeat: repeat-x;
+	color: #604635;
+	text-shadow: #FFF 0px 1px 1px;
+        text-align: center;
+        padding: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
