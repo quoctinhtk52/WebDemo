@@ -69,7 +69,6 @@
             this.txtCapdo = new System.Windows.Forms.TextBox();
             this.txtGioitinh = new System.Windows.Forms.TextBox();
             this.txtNam = new System.Windows.Forms.TextBox();
-            this.txtTen = new System.Windows.Forms.TextBox();
             this.txtUserreg = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbReg = new System.Windows.Forms.Label();
@@ -384,7 +383,6 @@
             this.panel3.Controls.Add(this.txtGioitinh);
             this.panel3.Controls.Add(this.txtNam);
             this.panel3.Controls.Add(this.txtHolot);
-            this.panel3.Controls.Add(this.txtTen);
             this.panel3.Location = new System.Drawing.Point(272, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(548, 208);
@@ -518,14 +516,6 @@
             this.txtNam.Size = new System.Drawing.Size(105, 20);
             this.txtNam.TabIndex = 1;
             this.txtNam.Text = "1998";
-            // 
-            // txtTen
-            // 
-            this.txtTen.Location = new System.Drawing.Point(105, 65);
-            this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(196, 20);
-            this.txtTen.TabIndex = 1;
-            this.txtTen.Text = "Tịnh";
             // 
             // txtUserreg
             // 
@@ -798,7 +788,6 @@
         private System.Windows.Forms.TextBox txtCapdo;
         private System.Windows.Forms.TextBox txtGioitinh;
         private System.Windows.Forms.TextBox txtNam;
-        private System.Windows.Forms.TextBox txtTen;
         private System.Windows.Forms.TextBox txtUserreg;
         private System.Windows.Forms.Label lbLogin;
         private System.Windows.Forms.Button btnExit;
