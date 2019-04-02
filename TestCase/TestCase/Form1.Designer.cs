@@ -158,7 +158,6 @@
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(125, 20);
             this.txtUser.TabIndex = 1;
-            this.txtUser.Text = "Admin";
             // 
             // label2
             // 
@@ -319,8 +318,8 @@
             this.txtAnh.Size = new System.Drawing.Size(196, 20);
             this.txtAnh.TabIndex = 1;
             this.txtAnh.Text = "https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/1/d/d/b/1ddb5c7aab749cf3562" +
-                "04433d2b512fc.jpghttps://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/1/d/d/b/1" +
-                "ddb5c7aab749cf356204433d2b512fc.jpg";
+    "04433d2b512fc.jpghttps://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/1/d/d/b/1" +
+    "ddb5c7aab749cf356204433d2b512fc.jpg";
             // 
             // txtLienkn
             // 
@@ -329,8 +328,8 @@
             this.txtLienkn.Size = new System.Drawing.Size(196, 20);
             this.txtLienkn.TabIndex = 1;
             this.txtLienkn.Text = "http://vnso-zn-16-tf-mp3-s1-zmp3.zadn.vn/ee85458a8ace63903adf/7635040320665034874" +
-                "?authen=exp=1543578590~acl=/ee85458a8ace63903adf/*~hmac=b242a237ba4977e2f34d4a28" +
-                "00348581";
+    "?authen=exp=1543578590~acl=/ee85458a8ace63903adf/*~hmac=b242a237ba4977e2f34d4a28" +
+    "00348581";
             // 
             // txtTheloai
             // 

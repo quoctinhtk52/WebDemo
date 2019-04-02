@@ -28,3 +28,5 @@ C:\Users\Quach Tinh\Desktop\Nop\TestCase\TestCase\obj\x86\Debug\TestCase.csprojR
 C:\Users\Quach Tinh\Desktop\Nop\TestCase\TestCase\obj\x86\Debug\TestCase.Form1.resources
 C:\Users\Quach Tinh\Desktop\Nop\TestCase\TestCase\obj\x86\Debug\TestCase.Properties.Resources.resources
 C:\Users\Quach Tinh\Desktop\Nop\TestCase\TestCase\obj\x86\Debug\TestCase.csproj.GenerateResource.Cache
+C:\Users\Quach Tinh\Desktop\WebDemo\TestCase\TestCase\obj\x86\Debug\TestCase.exe
+C:\Users\Quach Tinh\Desktop\WebDemo\TestCase\TestCase\obj\x86\Debug\TestCase.pdb
