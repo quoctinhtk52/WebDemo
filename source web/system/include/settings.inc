@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 session_start();
 
@@ -15,10 +15,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $brauser=htmlspecialchars(stripslashes($_SERVER['HTTP_USER_AGENT']));
 $thonline = 0;
 session_start();
-if (isset ($_SESSION['log']) && isset ($_SESSION['pass'])) {
-    $log = $_SESSION['log'];
-    $pas = $_SESSION['pass'];
-}
+
 elseif (isset ($_COOKIE['log']) && isset ($_COOKIE['pas'])) {
     $log = base64_decode($_COOKIE['log']);
     $_SESSION['log'] = $log;
