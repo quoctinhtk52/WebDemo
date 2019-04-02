@@ -17,7 +17,14 @@ if (isset($_GET['tktt']))
 { echo'<font color="red"><div id="thongbao">Username đã tồn tại</div></font><br>';}
 if (isset($_GET['chieudai']))
 { echo'<font color="red"><div id="thongbao">Username hoặc Password vượt quá kích thước quy định</div></font><br>';}
-
+if (isset($_GET['sdttt']))
+{ echo'<font color="red"><div id="thongbao">Số điện thoại đã tồn tại</div></font><br>';}
+if (isset($_GET['sdterr']))
+{ echo'<font color="red"><div id="thongbao">Số điện thoại không hợp lệ</div></font><br>';}
+if (isset($_GET['gioitinherr']))
+{ echo'<font color="red"><div id="thongbao">Giới tính không hợp lệ</div></font><br>';}
+if (isset($_GET['ngaysinherr']))
+{ echo'<font color="red"><div id="thongbao">Ngày sinh không hợp lệ</div></font><br>';}
 
 switch($_GET[mod])
 {
