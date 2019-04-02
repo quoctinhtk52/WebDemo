@@ -92,7 +92,13 @@ margin-top: -2px;
 	white-space:normal;
 	background-repeat: no-repeat;
 	background-position: center top;
-	
+	font-weight: normal;
+	background-color: #F9F1D9;
+	background-image: url(bottom2.png);
+	padding-top: 3px;
+	padding-right: 8px;
+	padding-bottom: 1px;
+	padding-left: 8px;
 }
 .button a{
 	color:#F9F1D9;
@@ -129,15 +135,7 @@ margin-top: -2px;
 	}
 
 .foot{
-	color:#C3966B;
-	background:#FAF1DC repeat-x;
-	text-align: left;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 3px;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #FFE0C1;
+	
 }
 
 
