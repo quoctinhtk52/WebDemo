@@ -69,7 +69,6 @@
             this.txtCapdo = new System.Windows.Forms.TextBox();
             this.txtGioitinh = new System.Windows.Forms.TextBox();
             this.txtNam = new System.Windows.Forms.TextBox();
-            this.txtHolot = new System.Windows.Forms.TextBox();
             this.txtTen = new System.Windows.Forms.TextBox();
             this.txtUserreg = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -383,7 +382,6 @@
             this.panel3.Controls.Add(this.txtCapdo);
             this.panel3.Controls.Add(this.txtGioitinh);
             this.panel3.Controls.Add(this.txtNam);
-            this.panel3.Controls.Add(this.txtHolot);
             this.panel3.Controls.Add(this.txtTen);
             this.panel3.Location = new System.Drawing.Point(272, 5);
             this.panel3.Name = "panel3";
@@ -518,14 +516,6 @@
             this.txtNam.Size = new System.Drawing.Size(105, 20);
             this.txtNam.TabIndex = 1;
             this.txtNam.Text = "1998";
-            // 
-            // txtHolot
-            // 
-            this.txtHolot.Location = new System.Drawing.Point(105, 36);
-            this.txtHolot.Name = "txtHolot";
-            this.txtHolot.Size = new System.Drawing.Size(196, 20);
-            this.txtHolot.TabIndex = 1;
-            this.txtHolot.Text = "Lê Quốc";
             // 
             // txtTen
             // 
@@ -821,7 +811,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox txtPassreg;
         private System.Windows.Forms.TextBox txtNamreg;
-        private System.Windows.Forms.TextBox txtHolot;
         private System.Windows.Forms.Button btnDeletebh;
     }
 }
