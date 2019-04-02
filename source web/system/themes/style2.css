@@ -172,7 +172,11 @@ margin-top: -2px;
 	
 
 .opis {
-	
+	background-color: #D8C9AB;
+	background-image: url(opis.png);
+	background-repeat: repeat-x;
+	color: #604635;
+	text-shadow: #FFF 0px 1px 1px;
         text-align: center;
         padding: 20px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
