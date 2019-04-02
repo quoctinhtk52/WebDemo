@@ -33,10 +33,7 @@ echo "<b>Tên đăng nhập</b><br/>";
 
 echo "<input name=\"name\" maxlength=\"20\" title=\"nick\" emptyok=\"true\"/><br/>";
 
-echo "<b>Mật khẩu:</b><br/>";
-echo "<input name=\"pass\"  type=\"password\"  maxlength=\"20\" title=\"password\" emptyok=\"true\"/><br/>";
-echo '<input class="button" type="submit" value="Đăng nhập"/>';
-echo'</div></form>';
+
 echo '<center><a href="reg.php">Đăng ký</a>  || <a href="#">Tải APP</a></center>';
 echo '</center>';
 echo'</div><div class = "opis" >';
