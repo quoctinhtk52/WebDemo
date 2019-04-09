@@ -69,7 +69,8 @@
             this.txtCapdo = new System.Windows.Forms.TextBox();
             this.txtGioitinh = new System.Windows.Forms.TextBox();
             this.txtNam = new System.Windows.Forms.TextBox();
-            this.txtUserreg = new System.Windows.Forms.TextBox();
+            this.txtHolot = new System.Windows.Forms.TextBox();
+            this.txtTen = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbReg = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -88,9 +89,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.txtPassreg = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.txtNamreg = new System.Windows.Forms.TextBox();
-            this.txtHolot = new System.Windows.Forms.TextBox();
-            this.txtTen = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -519,13 +517,21 @@
             this.txtNam.TabIndex = 1;
             this.txtNam.Text = "1998";
             // 
-            // txtUserreg
+            // txtHolot
             // 
-            this.txtUserreg.Location = new System.Drawing.Point(96, 39);
-            this.txtUserreg.Name = "txtUserreg";
-            this.txtUserreg.Size = new System.Drawing.Size(196, 20);
-            this.txtUserreg.TabIndex = 1;
-            this.txtUserreg.Text = "quoctinh97";
+            this.txtHolot.Location = new System.Drawing.Point(105, 36);
+            this.txtHolot.Name = "txtHolot";
+            this.txtHolot.Size = new System.Drawing.Size(196, 20);
+            this.txtHolot.TabIndex = 1;
+            this.txtHolot.Text = "Lê Quốc";
+            // 
+            // txtTen
+            // 
+            this.txtTen.Location = new System.Drawing.Point(105, 65);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(196, 20);
+            this.txtTen.TabIndex = 1;
+            this.txtTen.Text = "Tịnh";
             // 
             // panel4
             // 
@@ -547,8 +553,6 @@
             this.panel4.Controls.Add(this.label19);
             this.panel4.Controls.Add(this.txtPassreg);
             this.panel4.Controls.Add(this.label18);
-            this.panel4.Controls.Add(this.txtUserreg);
-            this.panel4.Controls.Add(this.txtNamreg);
             this.panel4.Location = new System.Drawing.Point(402, 218);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(418, 262);
@@ -709,30 +713,6 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Username";
             // 
-            // txtNamreg
-            // 
-            this.txtNamreg.Location = new System.Drawing.Point(96, 202);
-            this.txtNamreg.Name = "txtNamreg";
-            this.txtNamreg.Size = new System.Drawing.Size(105, 20);
-            this.txtNamreg.TabIndex = 1;
-            this.txtNamreg.Text = "1998";
-            // 
-            // txtHolot
-            // 
-            this.txtHolot.Location = new System.Drawing.Point(105, 36);
-            this.txtHolot.Name = "txtHolot";
-            this.txtHolot.Size = new System.Drawing.Size(196, 20);
-            this.txtHolot.TabIndex = 1;
-            this.txtHolot.Text = "Lê Quốc";
-            // 
-            // txtTen
-            // 
-            this.txtTen.Location = new System.Drawing.Point(105, 65);
-            this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(196, 20);
-            this.txtTen.TabIndex = 1;
-            this.txtTen.Text = "Tịnh";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -798,7 +778,6 @@
         private System.Windows.Forms.TextBox txtCapdo;
         private System.Windows.Forms.TextBox txtGioitinh;
         private System.Windows.Forms.TextBox txtNam;
-        private System.Windows.Forms.TextBox txtUserreg;
         private System.Windows.Forms.Label lbLogin;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Panel panel4;
@@ -819,7 +798,6 @@
         private System.Windows.Forms.TextBox txtThangreg;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox txtPassreg;
-        private System.Windows.Forms.TextBox txtNamreg;
         private System.Windows.Forms.Button btnDeletebh;
         private System.Windows.Forms.TextBox txtHolot;
         private System.Windows.Forms.TextBox txtTen;
