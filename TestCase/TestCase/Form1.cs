@@ -65,7 +65,27 @@ namespace TestCase
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            IWebDriver drive = new ChromeDriver();
+            drive.Url = "http://nhacvippro.co.nf/index.php";
+
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(3)")).SendKeys("Admin");
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(7)")).SendKeys("quoctinh");
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input.button")).Click();
+
+            Thread.Sleep(2000);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > table > tbody > tr > td:nth-child(1) > div > b > b > a")).Click();
+            Thread.Sleep(1000);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > a")).Click();
+            Thread.Sleep(1000);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(2)")).SendKeys(txtTenbh.Text);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(5)")).SendKeys(txtCasi.Text);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(8)")).SendKeys(txtTheloai.Text);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(11)")).SendKeys(txtLienkn.Text);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input:nth-child(14)")).SendKeys(txtAnh.Text);
+            drive.FindElement(By.CssSelector("body > div:nth-child(2) > form > input.button")).Click();
+            Thread.Sleep(2000);
+            lbTbeditbh.Text = drive.FindElement(By.Id("thongbao")).Text;
+            drive.Quit();
 
         }
 
