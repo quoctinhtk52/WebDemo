@@ -127,16 +127,7 @@ namespace TestCase
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            IWebDriver drive = new ChromeDriver();
-            drive.Url = "http://nhacvippro.co.nf/index.php";
-
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(3)")).SendKeys("Admin");
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(7)")).SendKeys("quoctinh");
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input.button")).Click();
-            Thread.Sleep(2000);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > div:nth-child(16) > a")).Click();
-            Thread.Sleep(1000);
-            lbLogin.Text = drive.FindElement(By.Id("thongbao")).Text;
+          
             drive.Quit();
         }
 
