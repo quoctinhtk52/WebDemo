@@ -171,7 +171,14 @@ namespace TestCase
 
         private void btnDeletebh_Click(object sender, EventArgs e)
         {
-           
+            IWebDriver drive = new ChromeDriver();
+            drive.Url = "http://nhacvippro.co.nf/index.php";
+
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(3)")).SendKeys("Admin");
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(7)")).SendKeys("quoctinh");
+            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input.button")).Click();
+
+          
         }
 
         
