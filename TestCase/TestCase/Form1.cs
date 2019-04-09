@@ -142,25 +142,7 @@ namespace TestCase
 
         private void btnReg_Click(object sender, EventArgs e)
         {
-            IWebDriver drive = new ChromeDriver();
-            drive.Url = "http://nhacvippro.co.nf/index.php";
-            drive.FindElement(By.CssSelector("body > div.auth > center > a:nth-child(1)")).Click();
-            Thread.Sleep(1000);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(2)")).SendKeys(txtUserreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(5)")).SendKeys(txtPassreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(8)")).SendKeys(txtHolotreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(11)")).SendKeys(txtTenreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(14)")).SendKeys(txtSdtreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(17)")).SendKeys(txtGioitinhreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(20)")).SendKeys(txtNamreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(21)")).SendKeys(txtThangreg.Text);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input:nth-child(22)")).SendKeys(txtNgayreg.Text);
-            
-            Thread.Sleep(1000);
-            drive.FindElement(By.CssSelector("body > div:nth-child(2) > b > form > input.button")).Click();
-            Thread.Sleep(1000);
-            lbReg.Text = drive.FindElement(By.Id("thongbao")).Text;
-            drive.Quit();
+           
 
         }
 
