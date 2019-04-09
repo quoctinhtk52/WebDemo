@@ -25,12 +25,7 @@ namespace TestCase
             IWebDriver drive = new ChromeDriver();
             drive.Url = "http://nhacvippro.co.nf/index.php";
 
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(3)")).SendKeys(txtUser.Text);
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input:nth-child(7)")).SendKeys(txtPass.Text);
-            drive.FindElement(By.CssSelector("body > div.auth > div > center > form > input.button")).Click();
-            Thread.Sleep(2000);
-            lbLogin.Text = drive.FindElement(By.Id("thongbao")).Text;
-            drive.Quit();
+           
         }
 
         private void btnSuabh_Click(object sender, EventArgs e)
