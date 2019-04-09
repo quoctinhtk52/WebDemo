@@ -89,6 +89,8 @@
             this.label19 = new System.Windows.Forms.Label();
             this.txtPassreg = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.txtNamreg = new System.Windows.Forms.TextBox();
+            this.txtUserreg = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -553,6 +555,8 @@
             this.panel4.Controls.Add(this.label19);
             this.panel4.Controls.Add(this.txtPassreg);
             this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.txtUserreg);
+            this.panel4.Controls.Add(this.txtNamreg);
             this.panel4.Location = new System.Drawing.Point(402, 218);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(418, 262);
@@ -713,6 +717,22 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Username";
             // 
+            // txtNamreg
+            // 
+            this.txtNamreg.Location = new System.Drawing.Point(96, 202);
+            this.txtNamreg.Name = "txtNamreg";
+            this.txtNamreg.Size = new System.Drawing.Size(105, 20);
+            this.txtNamreg.TabIndex = 1;
+            this.txtNamreg.Text = "1998";
+            // 
+            // txtUserreg
+            // 
+            this.txtUserreg.Location = new System.Drawing.Point(96, 39);
+            this.txtUserreg.Name = "txtUserreg";
+            this.txtUserreg.Size = new System.Drawing.Size(196, 20);
+            this.txtUserreg.TabIndex = 1;
+            this.txtUserreg.Text = "quoctinh97";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -801,6 +821,8 @@
         private System.Windows.Forms.Button btnDeletebh;
         private System.Windows.Forms.TextBox txtHolot;
         private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.TextBox txtUserreg;
+        private System.Windows.Forms.TextBox txtNamreg;
     }
 }
 
